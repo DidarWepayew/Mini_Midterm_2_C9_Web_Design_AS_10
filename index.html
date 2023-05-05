@@ -9,10 +9,24 @@
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/font.css" rel="stylesheet">
     <link href="css/scroller_to_top.css" rel="stylesheet">
+    <link href="css/loading_screen.css" rel="stylesheet">
+    
 </head>
 
 <body>
+<!-- Loading_screen --> 
+    <div id="preloader_malc">
+        <div>    
+            <img src="img/6.gif" alt="">
+            <p class="text-center">Ýüklenýär... <br>-- Maksadyň näme? -- <br><br><br><br><br><br><br>Pikirlen!<br><i class="bi bi-emoji-smile-upside-down"></i></p>
+        </div>    
+    </div>    
+<!-- Loading_screen End-->
+
+<!-- Scroller_to_top --> 
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-rocket-fill"></i></button>
+<!-- Scroller_to_top End--> 
+
 <!-- 1- Sector Start -->    
     <div class="container-fluid sticky-top">
         <div class="d-flex px-3 py-2" data-aos="fade-down" data-aos-duration="1500">
@@ -94,12 +108,14 @@
         <img src="img/2.jpg" alt="" style=" width: 24.8%;">
     </div>
 <!-- 4- Sector End -->
+    
 
 <!-- Script -->
+<script src="js/loading_screen.js"></script>
 <script src="js/scroller_to_top.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/aos.js"></script>
-    <script>
+    <script>    
         AOS.init({
             once: true,
         });

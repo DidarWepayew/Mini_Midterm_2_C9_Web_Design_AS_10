@@ -1,0 +1,31 @@
+
+#preloader_malc {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: radial-gradient(circle, #101210, #002a23, #003f69, #004fc4, #122feb);
+            z-index: 99;
+            
+            
+        }
+    
+#preloader_malc div {
+            
+            width: 260px;
+            height: 70px;
+            line-height: 40px;
+            border-radius: 0px;
+            font-family: arial;
+            font-size: 24px;
+            color: whitesmoke;
+            text-align: center;
+            position: fixed;
+            z-index: 999;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto
+        }
