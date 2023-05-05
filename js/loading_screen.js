@@ -5,7 +5,7 @@
 
         document.getElementById("preloader_malc").style.display = "none";
 
-    }, 5000);
+    }, 1);
 
 };
 
